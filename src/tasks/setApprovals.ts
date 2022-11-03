@@ -42,7 +42,7 @@ async function setApprovals(
       target: approval.token,
       callData: token.encodeFunctionData("approve", [
         approval.spender,
-        hre.ethers.constants.MaxUint256,
+        hre.ethers.constants.Zero,
       ]),
     });
   });
@@ -54,7 +54,7 @@ async function setApprovals(
     gasInGwei > 0
       ? {
           maxFeePerGas: gweiToWei(gasInGwei),
-          maxPriorityFeePerGas: gweiToWei(gasInGwei),
+          maxPriorityFeePerGas: gweiToWei(2),
         }
       : await gasEstimator.txGasPrice();
 

@@ -27,7 +27,6 @@ export * from "./proxy";
 export * from "./reader";
 export * from "./settlement";
 export * from "./sign";
-export * from "./signers";
 export * from "./swap";
 export * from "./vault";
 export * from "./types/ethers";

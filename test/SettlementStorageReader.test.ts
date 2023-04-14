@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import { Contract } from "ethers";
+import { Contract } from "ethersv5";
 import { artifacts, ethers, waffle } from "hardhat";
 
 import { SettlementReader, packOrderUidParams } from "../src/ts";

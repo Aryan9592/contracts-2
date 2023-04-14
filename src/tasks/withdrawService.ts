@@ -4,7 +4,7 @@ import { promises as fs, constants as fsConstants } from "fs";
 
 import { SignerWithAddress } from "@nomiclabs/hardhat-ethers/signers";
 import { assert } from "chai";
-import { utils, Contract } from "ethers";
+import { utils, Contract } from "ethersv5";
 import { task, types } from "hardhat/config";
 import { HardhatRuntimeEnvironment } from "hardhat/types";
 

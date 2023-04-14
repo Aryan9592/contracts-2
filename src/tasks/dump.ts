@@ -10,7 +10,7 @@ import {
   utils,
   VoidSigner,
   providers,
-} from "ethers";
+} from "ethersv5";
 import { task, types } from "hardhat/config";
 import { HardhatRuntimeEnvironment } from "hardhat/types";
 

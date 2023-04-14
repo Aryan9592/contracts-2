@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import { Contract } from "ethers";
+import { Contract } from "ethersv5";
 import { getNamedAccounts, run } from "hardhat";
 
 import { proxyInterface } from "../../src/ts";

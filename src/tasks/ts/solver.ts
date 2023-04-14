@@ -1,4 +1,4 @@
-import { Contract } from "ethers";
+import { Contract } from "ethersv5";
 
 export async function getSolvers(authenticator: Contract): Promise<string[]> {
   const addedSolvers: string[] = (

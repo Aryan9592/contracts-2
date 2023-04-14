@@ -1,4 +1,4 @@
-import { ethers, Contract } from "ethers";
+import { ethers, Contract } from "ethersv5";
 
 /**
  * Balancer Vault partial ABI interface.

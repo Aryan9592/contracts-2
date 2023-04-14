@@ -1,4 +1,4 @@
-import { BigNumber, BytesLike, Contract, ethers } from "ethers";
+import { BigNumber, BytesLike, Contract, ethers } from "ethersv5";
 
 /**
  * Compute an EIP-1967 slot for the specified name. The proxy contract used by

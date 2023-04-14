@@ -1,5 +1,5 @@
 import Debug from "debug";
-import { ethers } from "ethers";
+import { ethers } from "ethersv5";
 import { experimentalAddHardhatNetworkMessageTraceHook } from "hardhat/config";
 import {
   DecodedCallMessageTrace,

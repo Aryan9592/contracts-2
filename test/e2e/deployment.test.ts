@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import { Contract, Wallet } from "ethers";
+import { Contract, Wallet } from "ethersv5";
 import { artifacts, ethers } from "hardhat";
 import Proxy from "hardhat-deploy/extendedArtifacts/EIP173Proxy.json";
 

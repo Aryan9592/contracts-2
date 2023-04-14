@@ -1,7 +1,7 @@
 import UniswapV2Pair from "@uniswap/v2-core/build/UniswapV2Pair.json";
 import UniswapV2Router from "@uniswap/v2-periphery/build/UniswapV2Router02.json";
 import Debug from "debug";
-import { Contract, ContractReceipt } from "ethers";
+import { Contract, ContractReceipt } from "ethersv5";
 import { ethers, waffle } from "hardhat";
 
 import { OrderKind, SettlementEncoder, SigningScheme } from "../../src/ts";

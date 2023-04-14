@@ -1,5 +1,5 @@
 import IERC20 from "@openzeppelin/contracts/build/contracts/IERC20.json";
-import { utils, BytesLike } from "ethers";
+import { utils, BytesLike } from "ethersv5";
 import { HardhatRuntimeEnvironment } from "hardhat/types";
 
 import { Interaction } from "../../../ts";

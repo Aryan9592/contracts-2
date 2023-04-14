@@ -7,7 +7,7 @@ import {
   Contract,
   ContractReceipt,
   Event,
-} from "ethers";
+} from "ethersv5";
 import { artifacts, ethers, waffle } from "hardhat";
 
 import {

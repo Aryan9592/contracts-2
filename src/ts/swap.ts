@@ -1,4 +1,4 @@
-import { BigNumberish, BytesLike, Signer } from "ethers";
+import { BigNumberish, BytesLike, Signer } from "ethersv5";
 
 import { Order, OrderKind } from "./order";
 import { TokenRegistry, Trade, encodeTrade } from "./settlement";

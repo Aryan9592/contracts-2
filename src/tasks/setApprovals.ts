@@ -1,7 +1,7 @@
 import { promises as fs } from "fs";
 
 import "@nomiclabs/hardhat-ethers";
-import { BigNumber } from "ethers";
+import { BigNumber } from "ethersv5";
 import { task, types } from "hardhat/config";
 import { HardhatRuntimeEnvironment } from "hardhat/types";
 

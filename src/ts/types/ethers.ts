@@ -1,5 +1,5 @@
 import type { JsonRpcProvider, Provider } from "@ethersproject/providers";
-import type { ethers, Signer } from "ethers";
+import type { ethers, Signer } from "ethersv5";
 
 /**
  * A signature-like type.

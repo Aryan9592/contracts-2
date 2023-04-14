@@ -3,7 +3,7 @@ import CompatibilityFallbackHandler from "@gnosis.pm/safe-contracts/build/artifa
 import GnosisSafeProxyFactory from "@gnosis.pm/safe-contracts/build/artifacts/contracts/proxies/GnosisSafeProxyFactory.sol/GnosisSafeProxyFactory.json";
 import ERC20 from "@openzeppelin/contracts/build/contracts/ERC20PresetMinterPauser.json";
 import { expect } from "chai";
-import { BytesLike, Signer, Contract, Wallet } from "ethers";
+import { BytesLike, Signer, Contract, Wallet } from "ethersv5";
 import { ethers, waffle } from "hardhat";
 
 import {

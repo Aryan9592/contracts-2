@@ -1,4 +1,4 @@
-import { BigNumberish, BytesLike, Signer, ethers, BigNumber } from "ethers";
+import { BigNumberish, BytesLike, Signer, ethers, BigNumber } from "ethersv5";
 
 import {
   Interaction,

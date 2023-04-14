@@ -2,7 +2,7 @@ import ERC20 from "@openzeppelin/contracts/build/contracts/ERC20PresetMinterPaus
 import UniswapV2Factory from "@uniswap/v2-core/build/UniswapV2Factory.json";
 import UniswapV2Pair from "@uniswap/v2-core/build/UniswapV2Pair.json";
 import { expect } from "chai";
-import { Contract, Wallet } from "ethers";
+import { Contract, Wallet } from "ethersv5";
 import { ethers, waffle } from "hardhat";
 
 import {

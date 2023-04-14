@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import { BigNumber, ContractFactory } from "ethers";
+import { BigNumber, ContractFactory } from "ethersv5";
 import { ethers } from "hardhat";
 
 describe("StorageAccessible", () => {

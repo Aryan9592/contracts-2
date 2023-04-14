@@ -9,7 +9,7 @@ import {
   Contract,
   utils,
   Wallet,
-} from "ethers";
+} from "ethersv5";
 import hre, { ethers, waffle } from "hardhat";
 import { match, mock, SinonMock } from "sinon";
 

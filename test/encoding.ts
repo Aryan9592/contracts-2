@@ -1,4 +1,4 @@
-import { BigNumber } from "ethers";
+import { BigNumber } from "ethersv5";
 import { ethers } from "hardhat";
 
 import {

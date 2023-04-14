@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import { Contract } from "ethers";
+import { Contract } from "ethersv5";
 import { ethers, waffle } from "hardhat";
 
 import { AllowListReader } from "../src/ts/reader";

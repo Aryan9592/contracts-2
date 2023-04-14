@@ -1,7 +1,7 @@
 import { SignerWithAddress } from "@nomiclabs/hardhat-ethers/signers";
 import { expect, use } from "chai";
 import chaiAsPromised from "chai-as-promised";
-import { BigNumber, constants, Contract, utils, Wallet } from "ethers";
+import { BigNumber, constants, Contract, utils, Wallet } from "ethersv5";
 import hre, { ethers, waffle } from "hardhat";
 import { mock, SinonMock, match } from "sinon";
 

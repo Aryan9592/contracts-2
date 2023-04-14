@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import { ContractFactory } from "ethers";
+import { ContractFactory } from "ethersv5";
 import { ethers } from "hardhat";
 
 describe("ViewStorageAccessible", () => {

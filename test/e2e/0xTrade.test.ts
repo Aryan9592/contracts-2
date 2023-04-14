@@ -1,7 +1,7 @@
 import ERC20 from "@openzeppelin/contracts/build/contracts/ERC20PresetMinterPauser.json";
 import { expect } from "chai";
 import Debug from "debug";
-import { BigNumber, Contract, Wallet } from "ethers";
+import { BigNumber, Contract, Wallet } from "ethersv5";
 import { ethers, waffle } from "hardhat";
 
 import {

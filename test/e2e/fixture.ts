@@ -1,5 +1,5 @@
 import WETHArtifact from "canonical-weth/build/contracts/WETH9.json";
-import { Contract, Wallet } from "ethers";
+import { Contract, Wallet } from "ethersv5";
 import { deployments, network, ethers } from "hardhat";
 
 import AuthorizerArtifact from "../../balancer/Authorizer.json";

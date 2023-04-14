@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import { constants, Contract, utils } from "ethers";
+import { constants, Contract, utils } from "ethersv5";
 import hre, { ethers, waffle, artifacts } from "hardhat";
 
 import {

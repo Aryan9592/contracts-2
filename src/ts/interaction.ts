@@ -1,4 +1,4 @@
-import type { BigNumberish, BytesLike } from "ethers";
+import type { BigNumberish, BytesLike } from "ethersv5";
 
 /**
  * Gnosis Protocol v2 interaction data.

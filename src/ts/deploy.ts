@@ -1,4 +1,4 @@
-import { utils } from "ethers";
+import { utils } from "ethersv5";
 
 /**
  * The salt used when deterministically deploying smart contracts.

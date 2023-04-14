@@ -1,7 +1,7 @@
 import IERC20 from "@openzeppelin/contracts/build/contracts/IERC20.json";
 import { expect } from "chai";
 import { MockContract } from "ethereum-waffle";
-import { BigNumberish, Contract } from "ethers";
+import { BigNumberish, Contract } from "ethersv5";
 import { artifacts, ethers, waffle } from "hardhat";
 
 import { BatchSwapStep } from "../src/ts";

@@ -1,4 +1,4 @@
-import { BigNumber, BigNumberish, constants } from "ethers";
+import { BigNumber, BigNumberish, constants } from "ethersv5";
 import fetch, { RequestInit } from "node-fetch";
 
 import {

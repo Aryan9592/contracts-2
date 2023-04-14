@@ -1,4 +1,4 @@
-import { Contract } from "ethers";
+import { Contract } from "ethersv5";
 import { HardhatRuntimeEnvironment } from "hardhat/types";
 
 import { BUY_ETH_ADDRESS } from "../../ts";

@@ -1,5 +1,5 @@
 import axios from "axios";
-import { BigNumber, ethers } from "ethers";
+import { BigNumber, ethers } from "ethersv5";
 import { HardhatRuntimeEnvironment } from "hardhat/types";
 
 export type FeeData = Partial<ethers.providers.FeeData>;

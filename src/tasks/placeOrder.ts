@@ -1,5 +1,4 @@
-import { BigNumberish } from "@ethersproject/bignumber";
-import { utils } from "ethers";
+import { BigNumberish, utils } from "ethersv5";
 import { task } from "hardhat/config";
 import { HardhatRuntimeEnvironment } from "hardhat/types";
 

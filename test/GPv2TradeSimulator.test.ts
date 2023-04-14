@@ -2,7 +2,7 @@ import IERC20 from "@openzeppelin/contracts/build/contracts/IERC20.json";
 import IUniswapV2Router from "@uniswap/v2-periphery/build/IUniswapV2Router02.json";
 import { expect } from "chai";
 import { MockContract } from "ethereum-waffle";
-import { Contract } from "ethers";
+import { Contract } from "ethersv5";
 import { artifacts, ethers, waffle } from "hardhat";
 
 import { InteractionLike, InteractionStage, TradeSimulator } from "../src/ts/";

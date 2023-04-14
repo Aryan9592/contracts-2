@@ -1,4 +1,4 @@
-import { BigNumber, BytesLike, Contract, ethers } from "ethers";
+import { BigNumber, BytesLike, Contract, ethers } from "ethersv5";
 
 import { InteractionLike, normalizeInteractions } from "./interaction";
 import { Order, OrderBalance } from "./order";

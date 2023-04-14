@@ -64,6 +64,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "ethereum-waffle": "^3.4.4",
     "ethers": "^5.7.2",
+    "ethersv5": "npm:ethers@5.7.2",
     "globby": "^11.0.4",
     "hardhat": "^2.13.1",
     "hardhat-deploy": "^0.11.26",
@@ -77,6 +78,32 @@
     "ts-node": "^10.9.1",
     "typescript": "^5.0.4",
     "yargs": "^17.7.1"
+  },
+  "overrides": {
+    "hardhat": {
+      "ethers": "$ethersv5"
+    },
+    "@nomiclabs/hardhat-ethers": {
+      "ethers": "$ethersv5"
+    },
+    "@nomiclabs/hardhat-waffle": {
+      "ethers": "$ethersv5"
+    },
+    "@tenderly/hardhat-tenderly": {
+      "ethers": "$ethersv5"
+    },
+    "ethereum-waffle": {
+      "ethers": "$ethersv5"
+    },
+    "hardhat-deploy": {
+      "ethers": "$ethersv5"
+    },
+    "hardhat-gas-reporter": {
+      "ethers": "$ethersv5"
+    },
+    "solidity-coverage": {
+      "ethers": "$ethersv5"
+    }
   },
   "main": "lib/commonjs/index.js",
   "module": "lib/esm/index.js",

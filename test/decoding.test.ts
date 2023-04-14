@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import { constants, utils, Wallet } from "ethers";
+import { constants, utils, Wallet } from "ethersv5";
 import { waffle } from "hardhat";
 
 import {

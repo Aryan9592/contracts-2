@@ -6,7 +6,7 @@ import {
   ContractTransaction,
   providers,
   Signer,
-} from "ethers";
+} from "ethersv5";
 import { HardhatRuntimeEnvironment } from "hardhat/types";
 
 import { SupportedNetwork, isSupportedNetwork } from "./deployment";

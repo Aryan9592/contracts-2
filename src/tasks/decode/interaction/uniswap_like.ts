@@ -1,5 +1,5 @@
 import UniswapV2Router from "@uniswap/v2-periphery/build/UniswapV2Router02.json";
-import { utils, BytesLike, BigNumberish } from "ethers";
+import { utils, BytesLike, BigNumberish } from "ethersv5";
 import { HardhatRuntimeEnvironment } from "hardhat/types";
 
 import { Interaction } from "../../../ts";

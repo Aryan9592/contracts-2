@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import { Contract, Wallet } from "ethers";
+import { Contract, Wallet } from "ethersv5";
 
 import { getSolvers } from "../../../src/tasks/ts/solver";
 import { deployTestContracts } from "../../e2e/fixture";

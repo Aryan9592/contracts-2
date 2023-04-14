@@ -1,4 +1,4 @@
-import { BigNumber } from "ethers";
+import { BigNumber } from "ethersv5";
 
 import { BUY_ETH_ADDRESS, OrderKind } from "../../ts";
 import { Api } from "../../ts/api";

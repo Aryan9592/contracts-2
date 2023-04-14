@@ -4,7 +4,7 @@ import "@nomiclabs/hardhat-ethers";
 import readline from "readline";
 
 import chalk from "chalk";
-import { BigNumber, BigNumberish, utils, constants } from "ethers";
+import { BigNumber, BigNumberish, utils, constants } from "ethersv5";
 import { task } from "hardhat/config";
 import { HardhatRuntimeEnvironment } from "hardhat/types";
 import { Deployment } from "hardhat-deploy/types";

@@ -1,4 +1,4 @@
-import { BigNumberish, BytesLike } from "ethers";
+import { BigNumberish, BytesLike } from "ethersv5";
 
 export interface SimpleOrder {
   takerAddress: string;

@@ -3,7 +3,7 @@ import "@nomiclabs/hardhat-ethers";
 import { SignerWithAddress } from "@nomiclabs/hardhat-ethers/signers";
 import axios from "axios";
 import chalk from "chalk";
-import { BigNumber, constants, Contract, utils } from "ethers";
+import { BigNumber, constants, Contract, utils } from "ethersv5";
 import { task, types } from "hardhat/config";
 import { HardhatRuntimeEnvironment } from "hardhat/types";
 

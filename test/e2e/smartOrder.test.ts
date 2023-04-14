@@ -1,6 +1,6 @@
 import ERC20 from "@openzeppelin/contracts/build/contracts/ERC20PresetMinterPauser.json";
 import { expect } from "chai";
-import { Contract, ContractFactory, Wallet } from "ethers";
+import { Contract, ContractFactory, Wallet } from "ethersv5";
 import { ethers, waffle } from "hardhat";
 
 import {

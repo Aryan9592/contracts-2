@@ -1,9 +1,9 @@
-import { utils } from "ethersv5";
+import { ethers, Interface } from "ethersv6";
 
 /**
  * The salt used when deterministically deploying smart contracts.
  */
-export const SALT = utils.formatBytes32String("Mattresses in Berlin!");
+export const SALT = ethers.encodeBytes32String("Mattresses in Berlin!");
 
 /**
  * The contract used to deploy contracts deterministically with CREATE2.
@@ -43,7 +43,7 @@ export type DeploymentArguments<T> =
 /**
  * Allowed ABI definition types by Ethers.js.
  */
-export type Abi = ConstructorParameters<typeof utils.Interface>[0];
+export type Abi = ConstructorParameters<typeof Interface>[0];
 
 /**
  * Artifact information important for computing deterministic deployments.
@@ -78,15 +78,15 @@ export function deterministicDeploymentAddress<C>(
   { abi, bytecode }: MaybeNamedArtifactArtifactDeployment<C>,
   deploymentArguments: DeploymentArguments<C>,
 ): string {
-  const contractInterface = new utils.Interface(abi);
-  const deployData = utils.hexConcat([
+  const contractInterface = new Interface(abi);
+  const deployData = ethers.concat([
     bytecode,
     contractInterface.encodeDeploy(deploymentArguments),
   ]);
 
-  return utils.getCreate2Address(
+  return ethers.getCreate2Address(
     DEPLOYER_CONTRACT,
     SALT,
-    utils.keccak256(deployData),
+    ethers.keccak256(deployData),
   );
 }

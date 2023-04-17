@@ -63,7 +63,7 @@
     "eslint-plugin-no-only-tests": "^3.1.0",
     "eslint-plugin-prettier": "^4.2.1",
     "ethereum-waffle": "^3.4.4",
-    "ethers": "^6.3.0",
+    "ethersv6": "npm:ethers@6.3.0",
     "ethersv5": "npm:ethers@5.7.2",
     "globby": "^11.0.4",
     "hardhat": "^2.13.1",
